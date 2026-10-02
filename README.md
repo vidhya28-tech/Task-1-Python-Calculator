@@ -1,20 +1,20 @@
-# 🧮 Python CLI Calculator
+# Python CLI Calculator
 
 ## Calculator Application
 
 A simple command-line calculator developed using Python. The application allows users to perform basic arithmetic operations through an interactive menu and continues running until the user chooses to exit.
 
-### 🎯 Objective
+## Objective
 
-To develop a menu-driven command-line calculator that performs basic arithmetic operations while demonstrating Python functions, loops, conditionals, user input, and exception handling.
+To develop a menu-driven command-line calculator that performs basic arithmetic operations while demonstrating Python functions, loops, conditional statements, user input, and exception handling.
 
-### 🛠️ Tools Used
+## Tools Used
 
 * Python
 * VS Code
 * Terminal
 
-### 🧮 Features
+## Features
 
 * Addition of two numbers
 * Subtraction of two numbers
@@ -22,12 +22,12 @@ To develop a menu-driven command-line calculator that performs basic arithmetic 
 * Division of two numbers
 * Continuous menu-driven interaction
 * Input validation
-* Handles division by zero
-* Handles invalid numeric input
-* Allows multiple calculations without restarting
-* Provides an option to exit the application
+* Division-by-zero handling
+* Invalid input handling
+* Multiple calculations without restarting
+* Exit option
 
-### ⚙️ Operations
+## Operations
 
 | Choice | Operation      | Example               |
 | ------ | -------------- | --------------------- |
@@ -37,43 +37,43 @@ To develop a menu-driven command-line calculator that performs basic arithmetic 
 | 4      | Division       | 25 ÷ 5 = 5            |
 | 5      | Exit           | Closes the calculator |
 
-### 📚 Key Concepts
+## Key Concepts
 
-* **Functions** — separate functions are used for arithmetic operations.
-* **Loops** — keep the calculator running until the user chooses to exit.
-* **Conditional Statements** — determine which operation should be performed.
-* **User Input** — operation choices and numbers are taken using `input()`.
-* **Exception Handling** — handles invalid numeric input.
-* **Input Validation** — prevents invalid menu choices.
-* **Error Handling** — prevents division by zero.
+* Functions for individual arithmetic operations
+* Loops for continuous interaction
+* Conditional statements for menu selection
+* User input using `input()`
+* Exception handling for invalid input
+* Input validation
+* Error handling for division by zero
 
-### 📁 Project Structure
+## Project Structure
 
-```text id="4qz9ph"
+```text
 Task-1-Python-Calculator/
-│
-├── calculator.py
-└── README.md
+|
+|-- calculator.py
+|-- README.md
 ```
 
-### ▶️ How to Run
+## How to Run
 
-1. Open the `Task-1` folder in VS Code.
+1. Open the project folder in VS Code.
 2. Open the terminal.
 3. Run the following command:
 
-```bash id="n5f0tr"
+```bash
 python calculator.py
 ```
 
-4. Select an operation from the displayed menu.
+4. Select an operation from the menu.
 5. Enter the required numbers.
 6. View the result.
 7. Continue performing calculations or select option 5 to exit.
 
-### 💻 Sample Interaction
+## Sample Interaction
 
-```text id="0gr6ui"
+```text
 ===== Python CLI Calculator =====
 1. Addition (+)
 2. Subtraction (-)
@@ -89,11 +89,10 @@ Enter the second number: 15
 Result: 25.0 + 15.0 = 40.0
 ```
 
-### 🔍 Error Handling
+## Error Handling
 
-The application handles common situations such as:
+The application handles common input errors such as:
 
-* Entering an invalid menu option
-* Entering text instead of a number
-* Attempting to divide by zero
-* Continuing to use the calculator after completing an operation
+* Invalid menu choices
+* Non-numeric input
+* Division by zero
